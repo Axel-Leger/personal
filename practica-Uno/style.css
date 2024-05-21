@@ -1,0 +1,134 @@
+body{
+    display: grid;
+    grid-template-columns: 18% 1fr 18%;
+    grid-template-rows: 12% 1fr 10%;
+
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    background-color: rgb(217, 229, 229);
+    width: 100%;
+    grid-row: 1;
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoAside{
+    border: 2px solid;
+    height: 100% ;
+    width: 90%;
+    margin-left: 3%;
+    margin-top: 20px;
+    padding-left: 4%;
+}
+
+
+.botones{
+    margin-top: 20px;
+    margin-right: 2%;
+    display: flex ;
+    gap: 10px;
+}
+
+.botonP{
+    border: 1px solid;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.logo-img{
+    margin-left: 2%;
+    display: flex;
+    margin-bottom: 1%;
+    gap: 2%;
+}
+
+.logo-img img{
+    width: 20%;
+    height: 90%;
+    margin-top: 3%;
+}
+
+.logo{
+    font-size: 13px;
+}
+
+.logo h4{
+    font-size: 15px;
+    margin-top: -5%;
+    margin-left: 2%;
+}
+
+/*main*/
+main{
+    background-color: rgb(245, 255, 255);
+    grid-row: 2;
+    grid-column: 2;
+}
+
+.info{
+    margin: 3%;
+}
+
+.color{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.decoracion{
+    background-color: rgb(65, 105, 103);
+    position: fixed;
+    width: 18%;
+    margin-top: -7%;
+    height: 14%;
+    
+}
+
+.decoracion2{
+    background-color: rgb(65, 105, 103);
+    position: fixed;
+    width: 18%;
+    margin-top: -7%;
+    height: 14%;
+    
+}
+
+
+.liks-de-partes{
+    width: 60%;
+    margin-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(65, 105, 103);
+}
+
+.liks-de-partes a{
+    margin-left: 21%;
+}
+
+/*aside*/
+
+aside{
+    margin-top: 90px;
+    width: 18%;
+    height: 50%;
+    position: fixed;
+}
+
+
+.aside2{
+
+    margin-left: 82%;
+
+}
+
+footer{
+    background-color: brown;
+    grid-row: 3;
+    grid-column: 1/4;
+}
