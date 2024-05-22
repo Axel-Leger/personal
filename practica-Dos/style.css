@@ -1,0 +1,175 @@
+
+/*todo referido al BODY en general*/
+body{
+    display: grid;
+    grid-template-columns: 13% 1fr 20%;
+    grid-template-rows: 3% 1fr 5%;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+/*todo lo referido al HEADER/encabezado */
+
+header{
+    grid-column: 1/4;
+    grid-row: 1;
+
+    padding: 1%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(127, 205, 163);
+}
+
+.logo-img{
+    display: flex;
+    width: 50%;
+}
+
+.logo-img img{
+    width: 15%;
+    height: 90px;
+}
+
+.logo{
+    margin-left: 2%;
+    margin-top: -10px;
+}
+
+.nombrePagina{
+    font-size: 30px;
+}
+
+.subtituloPagina{
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 2%;
+}
+
+.botones{
+    display: flex;
+    gap: 20px;
+    margin-left: 33%;
+    margin-top: 20px;
+}
+
+.botonP{
+    padding: 3%;
+    padding-top: 4%;
+    height: 20px;
+    width: 130px;
+    border: 2px solid;
+    background-color: aliceblue;
+
+}
+
+.botonB{
+    padding: 3%;
+    padding-top: 4%;
+    width: 60px;
+    height: 20px;
+    border: 2px solid;
+    background-color: aliceblue;
+}
+
+/*todo referido al MAIN*/
+
+main{
+    grid-column: 2;
+    grid-row: 2;
+    padding: 1%;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+
+/*todo lo referido al ASIDE de la izquierda*/
+
+.asideIzquierda{
+    background-color: rgb(244, 247, 250);
+    grid-row: 2/3;
+    grid-column: 1;
+}
+
+.fixed{
+    position: sticky;
+    top: 0px;
+}
+
+.color{
+    text-decoration: none;
+    color: rgb(32, 69, 57);
+}
+
+.liks-de-partes h5{
+    margin-bottom: 10px;
+    color: rgb(32, 69, 57);
+    margin-top: 8px;
+}
+
+.liks-de-partes{
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    padding-left: 10% ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15%;
+}
+
+.decoracion{
+    background-color: rgb(130, 222, 185);
+    width: 100%;
+    height: 100px;
+}
+
+
+
+/*todo lo referido al ASIDE de la derecha*/
+
+.asideDerecha{
+    grid-column: 3;
+    grid-row: 2/3;
+
+    background-color: rgb(244, 247, 250);
+}
+
+.fixedDerecha{
+    position: sticky;
+    top: 0px;
+}
+
+
+.decoracion2{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(130, 222, 185);
+}
+
+.informacionAsideDerecha{
+    overflow: scroll;
+    height: 600px;
+}
+
+.infoAside{
+    padding: 4%;
+    border: 1px solid;
+    margin: 2%;
+    background-color: rgb(255, 255, 255);
+}
+
+/*esto solo hace que sea fixed ciertas zonas*/
+
+
+/*todo lo referido al FOOTER*/
+
+footer{
+    grid-column: 1/4;
+    grid-row: 3;
+    background-color: rgb(80, 134, 112);
+    color: aliceblue;
+}
+
+.lineaColor{
+    border: 0px;
+}
