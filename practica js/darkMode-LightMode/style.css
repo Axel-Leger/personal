@@ -1,0 +1,19 @@
+.ModoDark{
+    background-color: black;
+    color: aliceblue;
+    padding-top: 100px;
+    padding-left: 90px;
+    padding-bottom: 100px;
+}
+
+.ModoLight{
+    background-color: aliceblue;
+    color: black;
+    padding-top: 100px;
+    padding-left: 90px;
+    padding-bottom: 100px;
+}
+
+button{
+    padding: 20px;
+}
