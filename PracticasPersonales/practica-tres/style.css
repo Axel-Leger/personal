@@ -1,0 +1,77 @@
+body{
+    display: grid;
+    grid-template-columns: 10% 1r 10%;
+    grid-template-rows: 5% 2% 1fr 5%;
+
+    margin: 0;
+    padding: 0;
+}
+
+.botonesPaginas{
+    display: flex;  
+}
+
+.boton-border{
+    background-color: aliceblue;
+    color: rgb(3, 19, 19);
+    padding: 1%;
+    border: none;
+    margin-left: 1%;
+}
+
+.SeguirPaginaBotones{
+
+}
+
+
+/*esta partes es para que aparesaca y desaparesca las opciones*/
+
+.liks-de-partesApagado{
+    background-color: azure;
+    width: 10%;
+    text-align: center;
+    margin-top: -16px;
+    margin-left: -200px;
+}
+
+.liks-de-partesPrendido{
+    background-color: azure;
+    width: 10%;
+    text-align: center;
+    margin-top: -16px;
+    margin-left: 3%;
+}
+
+header{
+    background-color: blue;
+    grid-row: 1;
+    grid-column: 1/4;
+    display: flex;
+}
+
+.asideIzquierda{
+    background-color: blueviolet;
+    grid-column: 1/4;
+    grid-row: 2;
+
+    position: sticky;
+    top: 0;
+}
+
+main{
+    grid-column: 1/3;
+    grid-row: 3;
+    background-color: chocolate;
+}
+
+.asideDerecha{
+    grid-row: 3;
+    grid-column: 3;
+    background-color: rgb(30, 210, 90);
+}
+
+footer{
+    background-color: aquamarine;
+    grid-row: 4;
+    grid-column: 1/4;
+}
